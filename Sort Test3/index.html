@@ -1,0 +1,73 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SORT TEST</title>
+
+    <style>
+
+        .container{
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 150px;
+
+
+        }
+
+        .input{
+
+            padding: 10px;
+        }
+
+
+    </style>
+
+
+</head>
+
+
+
+<body class="container">
+
+    <section id="input">
+    <form>
+
+    ID : <input type="number" readonly id="userID" value="">
+
+    Name : <input type="text" id="userName" >
+
+    Occupation : <input type="text" id="userOccupation">
+
+    <input type="button" id="button" value="Add">
+
+    </form>
+    </section>
+
+    <br>
+
+    <br>
+
+    Sort by: <select name="sort" id ="sortBy">
+             <option value ="userID">userID</option>
+             <option value ="name">userName</option>
+             <option value ="occupation">userOccupation</option>
+             </select>
+
+    <br>         
+
+    <section id="output">
+
+    </section  >
+
+</body>
+
+<script src="sort.js"></script>
+    
+
+    </html>
